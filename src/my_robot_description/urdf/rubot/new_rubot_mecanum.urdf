@@ -217,9 +217,9 @@
   </joint>
   <link name="part">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file://$(find my_robot_description)/meshes/rubot/number2.stl" scale="0.0008 0.0008 0.0008"/>
+        <mesh filename="file://$(find my_robot_description)/meshes/rubot/crown.STL" scale="0.0004 0.0004 0.0004"/>
         <!--<box size="0.05 0.05 0.025"/>-->
       </geometry>
       <material name="light_grey"/>
