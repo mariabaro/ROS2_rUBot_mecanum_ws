@@ -14,3 +14,8 @@ install(
 )
 
 ament_package()
+
+install(
+DIRECTORY launch models rviz wordls
+DESTINATION share/${PROJECT_NAME}/
+)
